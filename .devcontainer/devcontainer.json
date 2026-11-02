@@ -1,0 +1,14 @@
+{
+  "name": "Loblaw Bio immune profiling",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "make setup",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": { "label": "Dashboard", "onAutoForward": "openBrowser" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "charliermarsh.ruff"]
+    }
+  }
+}

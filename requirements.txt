@@ -1,0 +1,11 @@
+# Runtime
+pandas==3.1.0
+scipy==1.18.1
+matplotlib==3.11.2
+fastapi==0.162.0
+uvicorn==0.54.0
+
+# Development: tests and lint/format
+pytest==9.2.0
+httpx==0.28.1
+ruff==0.17.3
